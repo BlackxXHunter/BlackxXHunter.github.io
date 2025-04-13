@@ -82,7 +82,35 @@ body {
   font-size: 1em;
 }
 
-
+ /* Basic Modal CSS */
+ .links {
+  color: #00D363;
+ }
+ .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+.modal-content {
+  position: relative;
+  margin: 10% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+}
+.close {
+  color: white;
+  position: absolute;
+  top: -40px;
+  right: 0;
+  font-size: 28px;
+}
+.video-link { cursor: pointer; color: blue; }
 
 /* line 16, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/theme-default.scss */
 a,

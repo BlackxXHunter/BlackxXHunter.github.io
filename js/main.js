@@ -19,7 +19,15 @@ document.querySelectorAll('.card').forEach(card => {
   });
 });
 
-
+// Toggle modal visibility
+  document.querySelector('.video-link').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.getElementById('video-modal').style.display = 'block';
+  });
+  document.querySelector('.close').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.getElementById('video-modal').style.display = 'none';
+  });
 
 $(document).ready(function(){
 
